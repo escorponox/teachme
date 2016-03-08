@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is the grep command."
+
+# The command's name
+echo -e 'grep'
+
+# the command's description
+echo "The command grep is used to search text for supplied patterns. This powerful tool is one of the most used commands and is often combined with other commands using the '|' (pipe) operator. This command is extremely flexible due in part to the large amount of flags available to it."
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
