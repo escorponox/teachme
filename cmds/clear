@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-echo "This is a test command."
+echo "This is the clear command."
 
 # The command's name
-echo -e 'test'
+echo -e 'clear'
 
 # the command's description
-echo "description here"
+echo "The clear command will clear the screen along with the scroll-back buffer if possible. This command ignores any flags and parameters passed to it through the command line. Use this command when you want a fresh screen."
 
 echo "------------"
 
