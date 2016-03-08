@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is the more command."
+
+# The command's name
+echo -e 'more'
+
+# the command's description
+echo "More is a tool for paging text files which otherwise would not fit in the screen. It only allows forward movement. Shortcuts inside more are based on vi. Use SPACE to move one screen forward and \"q\" to exit"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
