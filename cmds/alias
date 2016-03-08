@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is a alias command."
+
+# The command's name
+echo -e 'alias'
+
+# the command's description
+echo "An alais is simply a shortcut or mapping to another, often long command sequence. When a long command is used frequently enough, it is advisable to assign to it an alias. Then, whenever you need that command, you can simply use the alias. Aliases created at the command line will only work while that console remains open. To create more permenant aliases, place them in th e .bashrc or .bash_profile files. Any command you can issue from the command line can be turned into an easier to use alias."
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
