@@ -23,9 +23,4 @@ echo "------------"
 echo "clear"
 echo "Clears your screen"
 
-# example 2
-echo "test something"
-echo description here
-
-
 exit 0
