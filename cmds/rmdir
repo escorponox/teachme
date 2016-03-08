@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is the rmdir command."
+
+# The command's name
+echo -e 'rmdir'
+
+# the command's description
+echo "The rmdir command is used to remove empty directories. This command will fail if the directory contains any files. If the directory is not empty use the rm command (with appropriate flags) to remove any files or sub-directories."
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
