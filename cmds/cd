@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+echo "This is the cd command."
+
+# The command's name
+echo -e 'cd'
+
+# the command's description
+echo "The command cd changes the current directory to DIR. The command name itself is short for change-directory. It is commonly used to navigate the file system. If no DIR is given, it navigates to the path stored in the HOME shell variable, which is usually the user home directory."
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+exit 0
