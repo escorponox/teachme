@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
-
+echo "rmdir test/"
+echo "Remove the \"test\" directory if it is empty."
+echo
 # example 2
-echo "test something"
-echo description here
+echo "rmdir --ignore-fail-on-non-empty -p a/b/c"
+echo "Remove directories \"a/b/c\" then \"a/b\" then \"a\" until some of them is not empty."
 
 
 exit 0
