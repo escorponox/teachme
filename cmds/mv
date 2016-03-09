@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
-echo "This is a test command."
+echo "This is mv command."
 
 # The command's name
-echo -e 'test'
+echo -e 'mv'
 
 # the command's description
-echo "description here"
+echo "Move files to <destination>. If <destination> is a directory, it moves the files to that directory.
+If a filename is provided as <destination>, it renames the file to the filename provided.
+Both behaviour can be combined to move a file to a directory and rename it."
 
 echo "------------"
 
