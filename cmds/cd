@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is the cd command."
+
+# The command's name
+echo -e 'cd'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "cd [-L | -P] [<path>]"
+echo -e "\t-L: This forces the cd command to follow symbolic link and is the default behaviour."
+echo -e "\t-P: This will cause cd to only use the physical directory structure, and not follow any symbolic links."
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
