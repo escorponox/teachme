@@ -20,12 +20,13 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "touch touchedFile"
+echo "Create a new empty file called \"touchedFile\""
 
+echo
 # example 2
-echo "test something"
-echo description here
+echo "touch -t 201603011230.45 touchedFile"
+echo "Update the access and modification times of \"touchedFile\" to March 01, 2016 at 12:30:45"
 
 
 exit 0
