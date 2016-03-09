@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
-
+echo "$ tar xfz file.tar.gz"
+echo "Extract the gzip compressed file.tar.gz in the current directory."
+echo
 # example 2
-echo "test something"
-echo description here
+echo "$ tar -cfz file.tar.gz foo/"
+echo "Archive recursively the directory \"foo\" in file.tar.gz with gzip compression."
 
 
 exit 0
