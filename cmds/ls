@@ -5,7 +5,7 @@ echo "This is a test command."
 echo -e 'test'
 
 # the command's description
-echo "description here"
+echo "The ls command is used to list the contents of a directory. The contents of a directory will include other directories ( or folders ) and also files. If a user does not specify a directory, ls will list the contents of the present working directory. "
 
 echo "------------"
 
