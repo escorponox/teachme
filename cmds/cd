@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "cd [-L | -P] [<path>]"
+echo -e "\t-L: This forces the cd command to follow symbolic link and is the default behaviour."
+echo -e "\t-P: This will cause cd to only use the physical directory structure, and not follow any symbolic links."
 #   ...      etc
 
 echo "------------"
