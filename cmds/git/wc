@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is a git wc command."
+
+# The command's name
+echo -e 'git wc'
+
+# the command's description
+echo "The wc command is short for wordcount. The wc command takes the argument of a file name and and is able to provide information on the file related to the number of lines, the number of words, or the amount of bytes in the file. "
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "git test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "git test"
+echo description here
+
+# example 2
+echo "git test something"
+echo description here
+
+
+exit 0
