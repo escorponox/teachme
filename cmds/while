@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is a while command."
+
+# The command's name
+echo -e 'while'
+
+# the command's description
+echo "The keyword while is used in programming as a decision loop structure. The while loop repeatedly executes a list of statements and commands as long as (while) the controlling command (or test) is successful. If the control command fails (returns an exit status of non-zero) the loop terminates and the statement following the `done` statement is executed. Caution is required as an incorrectly implemented loop can result in a senario where the control command never fails, and the loop never ends. If this happens in your scripts, ctrl-c will terminate the scripts execution and return control to the command line." 
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
