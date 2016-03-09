@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+echo "This is a test command."
+
+# The command's name
+echo -e 'test'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "ls [ -a | -l | -R ]"
+echo -e "\t-a: List all files. Includes hidden files."
+echo -e "\t-l: Shows the long listing format. Displays more information about each file such as permissions, owner, file size and creation date."
+echo -e "\t-R: Recursivly list all sub-directories. Will show the current directories contents along with every sub directory and its contents."
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
