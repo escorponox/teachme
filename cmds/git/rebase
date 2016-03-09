@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is the git rm command."
+
+# The command's name
+echo -e 'git rebase'
+
+# the command's description
+echo "Git rebase is an alternative to merging branches. In a merge, changes from a branch are resolved into the master head. In a rebase, a branch is attached to the front of the master head. In a way, it overwrites the master head with the branch that is being rebased. This is an acceptable way to incorporate a new feature."
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "git test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "git test"
+echo description here
+
+# example 2
+echo "git test something"
+echo description here
+
+
+exit 0
