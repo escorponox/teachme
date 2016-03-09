@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "more [ -d | -<num> ]"
+echo -e "\t-d: If the user presses an illegal key while using more this flag causes more to display the message '[Press space to continue, q to 'quit' ' instead of an alert sound."
+echo -e "\t-<num>: Sets the number of lines to display per page."
 #   ...      etc
 
 echo "------------"
