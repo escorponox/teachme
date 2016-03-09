@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
-
+echo "$ grep --color \"test\" *.md"
+echo "Search for the pattern \"test\" in .md files in the current directory."
+echo
 # example 2
-echo "test something"
-echo description here
+echo "$ grep --color -rc \"sh\" ."
+echo "Count \"sh\" occurrences recursively in all files from the current directory."
 
 
 exit 0
