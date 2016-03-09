@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is a test command."
+
+# The command's name
+echo -e 'test'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "ls | wc -w"
+echo "In this example we are 'piping' the output of ls to the input of wc and printing the number of words. Since ls outputs the names of all the files and directories in a current directory, wc will display a count of the number of files and directories the the current working folder."
+
+# example 2
+echo "ps aux | grep root | less"
+echo "The above example first get a snapshot of all running processes then pipes that output into grep which extracts all line containing the word root which is piped into the less command giving the user a nice way to page through the data."
+
+
+exit 0
