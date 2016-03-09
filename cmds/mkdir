@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-echo "This is a test command."
+echo "This is a mkdir command."
 
 # The command's name
-echo -e 'test'
+echo -e 'mkdir'
 
 # the command's description
 echo "The mkdir command is used to create a new directory. The name of the new directory must not exist already. The new directory name must be unique."
