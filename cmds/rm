@@ -5,7 +5,7 @@ echo "This is a test command."
 echo -e 'test'
 
 # the command's description
-echo "description here"
+echo "The rm command is used to remove a file or directory. Removing a directory is not the default functionality of this command. The –r (recursive) flag is required to remove directories."
 
 echo "------------"
 
