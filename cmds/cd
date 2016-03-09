@@ -5,7 +5,7 @@ echo "This is the cd command."
 echo -e 'cd'
 
 # the command's description
-echo "The command cd changes the current directory to DIR. The command name itself is short for change-directory. It is commonly used to navigate the file system. If no DIR is given, it navigates to the path stored in the HOME shell variable, which is usually the user home directory."
+echo "The command cd changes the current directory to <path>. The command name itself is short for change-directory. It is commonly used to navigate the file system. If no <path> is given, it navigates to the path stored in the HOME shell variable, which is usually the user home directory."
 
 echo "------------"
 
