@@ -11,9 +11,10 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "rm [ -i | -f | -r ] FILE"
+echo -e "\t-i: ask for confirmation before each deletion"
+echo -e "\t-f: forces the deletion without asking for confirmation"
+echo -e "\t-r: remove directories and their contents recursively"
 #   ...      etc
 
 echo "------------"
@@ -25,7 +26,7 @@ echo "removes myfile from the current working directory. If the file is write pr
 
 # example 2
 echo "rm -rf *"
-echo "Arguably, the most dangerous command in Linux. This command will delete all files and directories in the current working directory as well as all sub-directories (-r) without prompts and forcing (-f) the deletion. Remember there is no Recycle Bin in command line. 
+echo "Arguably, the most dangerous command in Linux. This command will delete all files and directories in the current working directory as well as all sub-directories (-r) without prompts and forcing (-f) the deletion. Remember there is no Recycle Bin in command line."
 
 
 exit 0
