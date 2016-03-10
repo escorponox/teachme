@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-echo "This is a git test command."
+echo "This is a git init command."
 
 # The command's name
-echo -e 'git test'
+echo -e 'git init'
 
 # the command's description
-echo "description here"
+echo "Create a new Git repository. It can initialize a new empty repository or convert an unversioned directory tree to a Git repository, making possible to start tracking changes."
 
 echo "------------"
 
