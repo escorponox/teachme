@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is a git test command."
+
+# The command's name
+echo -e 'git test'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "git test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "git commit"
+echo "Git commit stores the contents of the index with a commit message. Git commit (with no flags) will attempt to open the systems default text editor by looking in \$EDITOR. If it doesn't find one, the commit will fail. The editor will open up and once a commit message is entered and the editor closed the commit will proceed. If no message is entered the commit fails and is cancelled."
+
+# example 2
+echo "git commit -am '<commit message>'"
+echo "This example will automatically stage files (-a) that have been modified or deleted then adds the supplied <commit message> and completes the commit. Using the -m flag can lead to shorter commit messages which may not provide the required detail to make the message useful in the future. Use -m sparingly and provide meaningful commit messages."
+
+
+exit 0
