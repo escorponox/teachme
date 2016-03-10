@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is a git push command."
+
+# The command's name
+echo -e 'git push'
+
+# the command's description
+echo "Tipically used to upload a set of commits (changes) to a remote repository. Multiple branches can be pushed with a single push command. When no repository nor branch is provided, it pushes the actual branch to the origin repository. This behaviour can be overriden by the actual configuration."
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "git test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "git test"
+echo description here
+
+# example 2
+echo "git test something"
+echo description here
+
+
+exit 0
