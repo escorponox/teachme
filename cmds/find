@@ -1,19 +1,20 @@
 #!/usr/bin/env bash
-echo "This is a test command."
+echo "This is the find command."
 
 # The command's name
-echo -e 'test'
+echo -e 'find'
 
 # the command's description
-echo "description here"
+echo "The find command allows a user to search for files that match a certain criteria within a directory. Users can search for a specific file name using wildcard parameters. Users can also find files that are a certain size. Also, find can be used to select only files of a specific type or extension."
 
 echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "find <path> [ -type c | -name pattern | -exec command ]"
+echo -e "\t-type: find files of type c"
+echo -e "\t-name: find files with base name matching pattern"
+echo -e "\t-exec: execute command for every match"
 #   ...      etc
 
 echo "------------"
@@ -28,4 +29,4 @@ echo -e "find /home/music/ -type f -name \"*.wav\" -exec rm -f {} \\;"
 echo "This usage will find all files (-type f) with the '.wav' (-name) extension and with the use of the -exec flag we can execute another command on each occurance. In this case we call the rm command and delete each one. "
 
 
-exit 01
+exit 0
