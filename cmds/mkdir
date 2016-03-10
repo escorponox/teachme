@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "mkdir [ -p | -v ]"
+echo -e "\t-p: Make parents directories as needed, giving no error if they already exists."
+echo -e "\t-v: Print a message foe each created directory."
 #   ...      etc
 
 echo "------------"
