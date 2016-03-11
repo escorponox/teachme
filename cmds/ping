@@ -22,12 +22,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "$ ping 8.8.8.8"
+echo "Ping to 8.8.8.8 until the command is aborted."
 
 # example 2
-echo "test something"
-echo description here
+echo "$ ping -c 5 8.8.8.8"
+echo "Ping to 8.8.8.8 five times."
 
 
 exit 0
