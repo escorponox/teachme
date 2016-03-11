@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is a test command."
+
+# The command's name
+echo -e 'test'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "sudo mycommand"
+echo "Will attempt to run the mycommand with elevated (superuser) privleges. Sudo will prompt the user to enter a password. If the user has superuser privilege the command will execute. "
+
+# example 2
+echo "sudo -u jsmith /usr/jsmith/script"
+echo "Sometimes you need to execute a program with another username altogether. This example will attempt to execute the program using the username jsmith. You would then be prompted to enter a password. If you enter jsmith's password script would execute (assuming jsmith has the privilege to run it).
+
+
+exit 0
