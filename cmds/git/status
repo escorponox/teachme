@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git status"
+echo "Show the working tree status"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git status -v"
+echo "Show the working tree status and the changes staged to be commited"
 
 
 exit 0
