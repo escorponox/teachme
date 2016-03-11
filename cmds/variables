@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "This is a test command."
+
+# The command's name
+echo -e 'test'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "myvar=3"
+echo "In order to assign the value 3 to the variable 'myvar' the = operator is used. This is often read as 'myvar gets 3' to avoid the confusion statement 'myvar equals 3' (which it may or may not). It's  important to note that there CANNOT be any whitespace around the =. Doing so will cause an error.  "
+
+# example 2
+echo "echo \$myvar"
+echo "To access the contents of a variable we place a \$ in front of the variable when referring to it. This example will display whatever value myvar holds at the time the command was executed. If we had left out the \$, this example would simple display 'myvar'"
+
+
+exit 0
