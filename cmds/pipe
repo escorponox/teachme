@@ -11,9 +11,8 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "command1 | command2"
+echo -e "\tcommand2: command taking the command1 output as his input"
 #   ...      etc
 
 echo "------------"
