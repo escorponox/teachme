@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-echo "This is a test command."
+echo "This is the exit fuction."
 
 # The command's name
-echo -e 'test'
+echo -e 'exit'
 
 # the command's description
-echo "description here"
+echo "The exit function is used to terminate a calling process inside a bash script. It is often followed by an integer between 0 and 255. The integer is a code that is used to communicate if the script completed successfully or not. Any code that is not 0 denotes an error."
 
 echo "------------"
 
