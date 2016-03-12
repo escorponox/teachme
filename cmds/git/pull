@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git pull"
+echo "Fetch and merge changes from the repository and branch configured by \"git branch --track\". This is usually the origin repository and the current branch in origin repository"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git pull upstream newFeature"
+echo "Fetch and merge changes from the newFeature branch in upstream repository"
 
 
 exit 0
