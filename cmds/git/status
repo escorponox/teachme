@@ -21,7 +21,7 @@ echo "------------"
 # the command's usage examples
 # example 1
 echo "git status"
-echo "Show the working tree status"
+echo "Show the working tree status. This includes brach status, files to be commited and modified files"
 
 # example 2
 echo "git status -v"
