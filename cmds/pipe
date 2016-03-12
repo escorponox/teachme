@@ -12,7 +12,7 @@ echo "------------"
 # the command's syntax
 echo "Syntax:"
 echo "command1 | command2"
-echo -e "\tcommand2: command taking the command1 output as his input"
+echo -e "\tcommand2: the command taking the piped output of command1 as its input"
 #   ...      etc
 
 echo "------------"
