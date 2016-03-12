@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-echo "This is a git test command."
+echo "This is the git merge command."
 
 # The command's name
-echo -e 'git test'
+echo -e 'git merge'
 
 # the command's description
-echo "description here"
+echo "The git merge command is used to resolve the changes between branches. Git merge will unify the project history back into a single repository."
 
 echo "------------"
 
