@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "$ git fetch"
+echo "Fetch from the origin remote"
 
 # example 2
-echo "git test something"
-echo description here
+echo "$ git fetch upstream newFeature"
+echo "Fetch the newFeature branch from the upstream remote"
 
 
 exit 0
