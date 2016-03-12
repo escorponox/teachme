@@ -12,7 +12,7 @@ echo "------------"
 # the command's syntax
 echo "Syntax:"
 echo "git commit [ --amend | -m <msg> ]"
-echo -e "\t--amend: amend last commit"
+echo -e "\t--amend: amend last commit. Useful if you forgot to add a file or to modify the comment. Never do this to an already public commit"
 echo -e "\t-m <msg>: use the given <msg> as the commit message"
 #   ...      etc
 
