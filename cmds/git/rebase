@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "This is the git rm command."
+echo "This is the git rebase command."
 
 # The command's name
 echo -e 'git rebase'
@@ -20,12 +20,18 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git rebase master"
+echo "After checking out the branch to rebase, the example command will incorporate the changes from master onto the checked out branch. This has a similar effect to a merge."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git rebase -i HEAD~3"
+echo -e "Begins an interactive (-i) rebase using only the last 3 commits. From here you can choose how to handle each commit.\n
+Your options are: \npick, p = keep the commit.
+\nreword, r = keep the commit but change the commit message.
+\nedit, e = use the commit, but stop for amending.
+\nsquash, s = use commit but combine with previous commit.
+\nfixup, f = same as squash, but loses the commit message.
+\nexec, x = run the following command using shell.     "
 
 
 exit 0
