@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-echo "This is a test command."
+echo "This is a sudo command."
 
 # The command's name
-echo -e 'test'
+echo -e 'sudo'
 
 # the command's description
-echo "description here"
+echo "The sudo command allows one user to execute a command as if they were logged in as another user. The ability to use sudo is determined by the security policy. The security policy must grant the user rights to run the sudo command. Usually the security policy will dictate that the user enters a password before executing sudo."
 
 echo "------------"
 
@@ -25,7 +25,7 @@ echo "Will attempt to run the mycommand with elevated (superuser) privleges. Sud
 
 # example 2
 echo "sudo -u jsmith /usr/jsmith/script"
-echo "Sometimes you need to execute a program with another username altogether. This example will attempt to execute the program using the username jsmith. You would then be prompted to enter a password. If you enter jsmith's password script would execute (assuming jsmith has the privilege to run it).
+echo "Sometimes you need to execute a program with another username altogether. This example will attempt to execute the program using the username jsmith. You would then be prompted to enter a password. If you enter jsmith's password script would execute (assuming jsmith has the privilege to run it)."
 
 
 exit 0
