@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-echo "This is a test command."
+echo "This is about variables."
 
 # The command's name
-echo -e 'test'
+echo -e 'bash variables'
 
 # the command's description
-echo "description here"
+echo "Bash variables are similar to variables in any programming language. In bash, they are not strongly typed. They can contain a number, character, or a string of characters. Variables in bash do not need to be declared. To assign a value to a variable simply declare it. For example let x=1."
 
 echo "------------"
 
