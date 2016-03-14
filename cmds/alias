@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "alias ll='ls -l'"
+echo "Make 'll' the alias of 'ls -l'. This is the most used alias and it is default in most popular linux distros"
 
 # example 2
-echo "test something"
-echo description here
+echo "alias grep='grep --color'"
+echo "Make grep use '--color' by default. This saves you to type '--color' in every grep"
 
 
 exit 0
