@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "ssh remoteuser@192.168.1.100"
+echo "Open a ssh connection on 192.168.1.100 with the login \'remoteuser\'."
 
 # example 2
-echo "test something"
-echo description here
+echo "ssh -p 2200 remoteuser@192.168.1.100"
+echo "Open a ssh connection to the port 2200 on 192.168.1.100 with the login \'remoteuser\'."
 
 
 exit 0
