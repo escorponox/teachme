@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git reset myFile"
+echo "Removes myFile from the staging area. The file remains the same, but it will not be commited unless added again"
 
 # example 2
-echo "git test something"
-echo description here
+echo "git reset --hard"
+echo "Reset staging area and working directory to match the last commit. CAUTION: All changes since last commit will be lost."
 
 
 exit 0
